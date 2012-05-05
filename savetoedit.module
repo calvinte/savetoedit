@@ -1,0 +1,11 @@
+<?php 
+
+/**
+ * @file
+ * Save To Edit's Module file, all module code is
+ * contained here.
+ */
+
+function savetoedit_node_insert($node) {
+  drupal_goto('node/' . $node->nid . '/edit');
+}

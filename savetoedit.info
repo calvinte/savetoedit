@@ -1,0 +1,2 @@
+name = Save To Edit
+description = Small module that forwards user to edit page after saving a node.

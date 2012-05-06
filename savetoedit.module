@@ -7,5 +7,5 @@
  */
 
 function savetoedit_node_insert($node) {
-  drupal_goto('node/' . $node->nid . '/edit');
+  $_GET['destination'] = 'node/' . $node->nid . '/edit';
 }
